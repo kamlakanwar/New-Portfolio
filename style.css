@@ -1033,7 +1033,7 @@ header ul a:hover{
 
     .card h1 {
         position: static;
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 10px;
     }
 
@@ -1208,7 +1208,7 @@ header ul a:hover{
     }
 
     .card h1{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .card:nth-child(3){
