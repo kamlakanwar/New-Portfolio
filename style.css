@@ -312,6 +312,7 @@ header ul a:hover{
     mix-blend-mode: lighten;
 }
 
+
 .card button{
     position: absolute;
     bottom: 5%;
@@ -1206,6 +1207,10 @@ header ul a:hover{
         grid-template-columns: auto;
     }
 
+    .card h1{
+        font-size: 20px;
+    }
+
     .card:nth-child(3){
         grid-column: span 2;
         height: 70vh;
@@ -1434,7 +1439,7 @@ header ul a:hover{
 
     .card h1{
         bottom: 30%;
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .project-card {
