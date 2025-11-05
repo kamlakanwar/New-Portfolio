@@ -1303,6 +1303,10 @@ header ul a:hover{
     position: relative;
 }
 
+/* Center heading */
+.contact-section h1 {
+    margin: 0;
+}
 
 /* Social links box centered under heading */
 .social-box {
