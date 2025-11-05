@@ -306,8 +306,8 @@ header ul a:hover{
 
 .card video{
     margin-top: 10%;
-    width: 70%;
-    height: 50%;
+    width: 90%;
+    height: 70%;
     object-fit: cover;
     mix-blend-mode: lighten;
 }
@@ -1178,9 +1178,6 @@ header ul a:hover{
         top: 5%;
     }
 
-    .card h1{
-        font-size: 50px;
-    }
 
     .card:nth-child(3){
         grid-column: span 2;
@@ -1190,7 +1187,7 @@ header ul a:hover{
     .card img{
         width: 100%;
     }
-    
+   
     .container{
         height: 100%;
     }
@@ -1408,7 +1405,7 @@ header ul a:hover{
 
     .card h1{
         bottom: 30%;
-        font-size: 10px;
+        font-size: 30px;
     }
 
     .project-card {
