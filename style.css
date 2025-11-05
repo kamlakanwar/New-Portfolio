@@ -1070,6 +1070,13 @@ header ul a:hover{
         text-align: center;
     }
 
+    .skills-box .skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
     .Designer,
     .coder {
         position: static;
@@ -1271,7 +1278,13 @@ header ul a:hover{
         padding: 40px 0;
         text-align: center;
     }
-
+    .skills-box .skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
     .Designer,
     .coder {
         position: static;
