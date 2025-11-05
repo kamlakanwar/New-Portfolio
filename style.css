@@ -1211,10 +1211,6 @@ header ul a:hover{
     .project-info p{
         max-width: 300px;
     }
-     .Designer, .coder {
-        position: static;
-        align-items: center;
-    }
 
     .skills-section {
         text-align: center;
@@ -1225,9 +1221,7 @@ header ul a:hover{
         display: none;
     }
 
-    .coder h1{
-        margin-bottom: 0;
-    }
+
 
     .slider .list .item img{
         width: 70%;
