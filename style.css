@@ -1205,6 +1205,10 @@ header ul a:hover{
     .project-info p{
         max-width: 300px;
     }
+     .Designer, .coder {
+        position: static;
+        align-items: center;
+    }
 
     .Designer{
         top: 15%;
@@ -1219,6 +1223,11 @@ header ul a:hover{
     .coder{
         top: 50%;
         left: 18%;
+    }
+
+    .skills-section {
+        text-align: center;
+        padding: 50px 0;
     }
 
     .skills-image{
@@ -1244,6 +1253,8 @@ header ul a:hover{
     }
 
     .social-box{
+        text-align: center;
+        padding: 50px 0;
         margin-left: -90px;
     }
 }
