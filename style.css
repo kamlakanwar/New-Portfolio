@@ -1067,10 +1067,16 @@ header ul a:hover{
     }
 
     .contact-section {
-        flex-direction: column;
-        gap: 20px;
-        text-align: center;
-    }
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;          /* stack title + social links vertically */
+    justify-content: center;         /* center vertically */
+    align-items: center;             /* center horizontally */
+    text-align: center;              /* center text inside */
+    gap: 30px;                       /* spacing between elements */
+    position: relative;
+}
 
     .social-box {
         align-items: center;
@@ -1210,21 +1216,6 @@ header ul a:hover{
         align-items: center;
     }
 
-    .Designer{
-        top: 15%;
-        left: 18%;
-    }
-
-    .Designer h1{
-        margin-bottom: 0;
-        margin-top: 70px;
-    }
-
-    .coder{
-        top: 50%;
-        left: 18%;
-    }
-
     .skills-section {
         text-align: center;
         padding: 50px 0;
@@ -1242,11 +1233,17 @@ header ul a:hover{
         width: 70%;
     }
 
-    .contact-section{
-        flex-direction: column;
-        margin-top: 100px;
-        margin-bottom: 50px;
-    }
+    .contact-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;          /* stack title + social links vertically */
+    justify-content: center;         /* center vertically */
+    align-items: center;             /* center horizontally */
+    text-align: center;              /* center text inside */
+    gap: 30px;                       /* spacing between elements */
+    position: relative;
+     }
 
     .footer{
         font-size: 10px;
