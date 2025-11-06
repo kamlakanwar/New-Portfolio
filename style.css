@@ -1189,8 +1189,10 @@ header ul a:hover{
     .card img{
         width: 100%;
     }
-    
-    
+
+    .card p{
+        text-align: center;
+    }
     .container{
         height: 100%;
     }
